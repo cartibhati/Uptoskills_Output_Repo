@@ -35,22 +35,24 @@ Each task folder must contain:
 ## 📂 Folder Structure(To be maintained strictly as per the rules)
 
 '''
+
 Task115_ZoneViolationDetection/
 │
-├── Code/                   ← Your scripts and notebooks (.py, .ipynb)
+├── Code/  ← Your scripts and notebooks (.py, .ipynb)
 │   ├── train.py
 │   ├── detect.py
 │   └── utils.py
 │
-├── Outputs/                ← Results: images, videos, CSVs your model produced
+├── Outputs/ ← Results: images, videos, CSVs your model produced
 │   ├── frame_001.jpg
 │   ├── frame_002.jpg
 │   └── demo_clip.mp4
 │
-└── Models/                 ← Saved model weight files (.pt, .pth, .onnx)
+└── Models/  ← Saved model weight files (.pt, .pth, .onnx)
     ├── best.pt
     ├── last.pt
     └── checkpoint.pth
+    
 '''    
 
 ---    
