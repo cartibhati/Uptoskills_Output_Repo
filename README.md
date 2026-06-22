@@ -34,6 +34,7 @@ Each task folder must contain:
 ---
 ## 📂 Folder Structure(To be maintained strictly as per the rules)
 
+'''
 Task115_ZoneViolationDetection/
 │
 ├── Code/                   ← Your scripts and notebooks (.py, .ipynb)
@@ -50,6 +51,7 @@ Task115_ZoneViolationDetection/
     ├── best.pt
     ├── last.pt
     └── checkpoint.pth
+'''    
 
 ---    
 
