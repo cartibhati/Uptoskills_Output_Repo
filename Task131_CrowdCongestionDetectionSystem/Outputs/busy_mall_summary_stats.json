@@ -1,0 +1,18 @@
+{
+    "processing_date": "2026-07-03 15:12:44",
+    "total_frames_processed": 341,
+    "total_time_seconds": 22.29,
+    "average_fps": 15.3,
+    "total_congestion_events": 1,
+    "video_fps": 25.0,
+    "video_resolution": "768x432",
+    "congestion_history": [
+        {
+            "zone": "Main_Entrance_Zone",
+            "start_timestamp": "2026-07-03 15:12:29",
+            "end_timestamp": "2026-07-03 15:12:38",
+            "duration_seconds": 9.04,
+            "peak_count": 17
+        }
+    ]
+}

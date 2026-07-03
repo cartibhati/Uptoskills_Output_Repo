@@ -1,0 +1,4 @@
+timestamp,zone,event_type,count,duration_seconds
+2026-07-03 15:12:29,Main_Entrance_Zone,START,14,N/A
+2026-07-03 15:12:29,Corridor_Zone,START,17,N/A
+2026-07-03 15:12:38,Main_Entrance_Zone,END,17,9.04

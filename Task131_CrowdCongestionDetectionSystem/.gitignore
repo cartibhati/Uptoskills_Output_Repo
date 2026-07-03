@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+Outputs/
+Models/*.pt
+Test_Videos/*.mp4
+.ipynb_checkpoints/
+temp_nb_runner.py

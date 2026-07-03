@@ -1,0 +1,52 @@
+# Task 131 - Crowd Congestion Detection System Configuration
+
+# Paths (Relative to the project root directory)
+video_path: "Test_Videos/dense_crowd.mp4"
+output_dir: "Outputs"
+model_path: "Models/yolov8n.pt"
+
+# Object Detector parameters
+detector:
+  confidence_threshold: 0.25  # Minimum confidence score for person detection
+
+# Lightweight IoU tracker parameters
+tracker:
+  iou_threshold: 0.3
+  max_lost_frames: 30
+
+# Hotspot Congestion parameters
+congestion:
+  min_duration_seconds: 2.0  # Duration (seconds) of sustained high density to trigger alert
+
+# Heatmap parameters
+heatmap:
+  snapshot_interval_seconds: 30.0 # Frequency of intermediate PNG snapshots (0 to disable)
+  colormap: "COLORMAP_JET"        # OpenCV colormap (COLORMAP_JET, COLORMAP_HOT, COLORMAP_VIRIDIS)
+  alpha: 0.6                      # Blending transparency for visualization
+
+# Spatial Monitoring Zones
+# Coordinates are defined for 768x432 (width x height) resolution
+zones:
+  - name: "Main_Entrance_Zone"
+    polygon:
+      - [20, 20]
+      - [370, 20]
+      - [370, 410]
+      - [20, 410]
+    thresholds:
+      low: 2
+      moderate: 5
+      high: 8
+      critical: 10
+
+  - name: "Corridor_Zone"
+    polygon:
+      - [394, 20]
+      - [748, 20]
+      - [748, 410]
+      - [394, 410]
+    thresholds:
+      low: 2
+      moderate: 5
+      high: 8
+      critical: 10
