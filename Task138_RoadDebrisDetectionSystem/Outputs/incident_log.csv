@@ -1,0 +1,5 @@
+timestamp,event_id,object_id,class_name,confidence_score,frame_number,evidence_filename,video_name,status
+2026-07-05 14:37:03,trash_id_6,6,car,0.6117362976074219,89,incident_20260705_143703_car_id_6.jpg,trash.mp4,STATIONARY_OBSTACLE
+2026-07-05 16:06:09,large_debris_id_1,1,car,0.8086230754852295,123,incident_20260705_160609_car_id_1.jpg,large_debris.mp4,STATIONARY_OBSTACLE
+2026-07-06 14:07:59,overturn_0_id_6,6,car,0.4306148886680603,32,incident_20260706_140759_car_id_6.jpg,overturn_0.mp4,STATIONARY_OBSTACLE
+2026-07-06 14:07:59,overturn_0_id_2,2,truck,0.3547119200229645,41,incident_20260706_140759_truck_id_2.jpg,overturn_0.mp4,STATIONARY_OBSTACLE
